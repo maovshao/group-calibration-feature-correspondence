@@ -1,0 +1,9 @@
+level: smoke
+methods: [gc_ts]
+seeds: [0]
+num_groups: 2
+num_partitions: 2
+group_optimizer_steps: 5
+weight_decay: 0.1
+device: cuda:0
+note: Smoke only; never reuse as main results.

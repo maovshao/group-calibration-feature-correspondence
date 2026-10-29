@@ -1,0 +1,9 @@
+level: pilot
+methods: [gc_ts]
+seeds: [0]
+num_groups: 2
+num_partitions: 20
+group_optimizer_steps: 100
+weight_decay: 0.1
+device: cuda:0
+note: Time this run before scheduling five seeds.

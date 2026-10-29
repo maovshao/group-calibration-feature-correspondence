@@ -1,0 +1,5 @@
+* text=auto
+results/*.csv -text whitespace=cr-at-eol
+*.svg text eol=lf whitespace=-blank-at-eol
+*.png binary
+*.pdf binary

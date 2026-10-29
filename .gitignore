@@ -1,0 +1,12 @@
+# Reproducible environments and downloaded upstream implementation
+.venv*/
+code/upstream/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Generated run records and machine-specific diagnostics
+outputs/
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
