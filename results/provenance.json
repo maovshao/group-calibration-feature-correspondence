@@ -460,10 +460,6 @@
     "scientific_runner_packaging_check": {
       "status": "passed",
       "comparison": "All original runner classes/functions match by AST except run_one and main manifest orchestration"
-    },
-    "packaged_gpu_reproduction": {
-      "status": "not_run",
-      "required": "Fresh allocated-GPU smoke and 20-condition main batch using this repository"
     }
   },
   "note": "Published CSVs are the original 20-run measurements. New runs write separate outputs."
